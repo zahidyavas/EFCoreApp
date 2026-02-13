@@ -1,1 +1,10 @@
+# CSS ve SCSS dosyalarını dil istatistiklerinden hariç tut
+*.css linguist-vendored
+*.scss linguist-vendored
+*.less linguist-vendored
+
+# JavaScript dosyalarını dil istatistiklerinden hariç tut
+*.js linguist-vendored
+
+# wwwroot klasörünün tamamını hariç tutmak için 
 wwwroot/* linguist-vendored
