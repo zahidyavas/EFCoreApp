@@ -1,7 +1,17 @@
+using EFCoreApp.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// SQLite yapılandırmasıyla DbContext ekliyoruz. Connection string'i appsettings.json dosyasından alıyoruz.
+builder.Services.AddDbContext<DataContext>(options => {
+    var config = builder.Configuration;
+    var ConnectionString = config.GetConnectionString("database");
+    options.UseSqlite(ConnectionString);
+});
 
 var app = builder.Build();
 
