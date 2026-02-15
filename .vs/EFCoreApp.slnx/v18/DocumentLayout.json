@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\data\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:data\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\views\\ogrenci\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:views\\ogrenci\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\controllers\\ogrencicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:controllers\\ogrencicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\views\\ogrenci\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:views\\ogrenci\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\views\\ogrenci\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -13,6 +21,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\views\\ogrenci\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:views\\ogrenci\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\data\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:data\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +38,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Ogrenci\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ogrenci\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Ogrenci\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Ogrenci\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-15T10:53:00.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Data\\DataContext.cs",
+              "RelativeToolTip": "Data\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T10:51:24.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OgrenciController.cs",
+              "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Controllers\\OgrenciController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OgrenciController.cs",
+              "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Controllers\\OgrenciController.cs",
+              "RelativeToolTip": "Controllers\\OgrenciController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wGIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T09:55:28.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Ogrenci\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ogrenci\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Ogrenci\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Ogrenci\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-15T09:47:00.049Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -38,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Ogrenci.cs",
               "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Data\\Ogrenci.cs",
               "RelativeDocumentMoniker": "Data\\Ogrenci.cs",
@@ -51,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Ogrenci\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Ogrenci\\Create.cshtml",
@@ -59,19 +127,21 @@
               "RelativeToolTip": "Views\\Ogrenci\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-14T22:52:32.809Z"
+              "WhenOpened": "2026-02-14T22:52:32.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Ogrenci\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Ogrenci\\Index.cshtml",
               "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Ogrenci\\Index.cshtml",
               "RelativeToolTip": "Views\\Ogrenci\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAACEAAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-14T22:23:53.951Z"
+              "WhenOpened": "2026-02-14T22:23:53.951Z",
+              "EditorCaption": ""
             }
           ]
         }

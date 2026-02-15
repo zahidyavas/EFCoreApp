@@ -23,8 +23,8 @@
                 <td>@Html.DisplayFor(modelItem => item.OgrenciSoyad)</td>
                 <td>@Html.DisplayFor(ModelItem => item.TelefonNumarasi)</td>
                 <td>
-                    <a class="btn btn-sm btn-primary">Detaylar</a>
-                    <a class="btn btn-sm btn-danger">Sil</a>
+                    <a asp-controller="Ogrenci" asp-action="Edit" asp-route-id="@item.OgrenciId" class="btn btn-sm btn-primary">Düzenle</a>
+                    <a asp-controller="Ogrenci" asp-action="Delete" asp-route-id="@item.OgrenciId" class="btn btn-sm btn-danger">Sil</a>
                 </td>
             </tr>
         }
