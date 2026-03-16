@@ -26,7 +26,12 @@ namespace EFCoreApp.Migrations
                     b.Property<string>("Baslik")
                         .HasColumnType("TEXT");
 
+                    b.Property<int?>("OgretmenId")
+                        .HasColumnType("INTEGER");
+
                     b.HasKey("KursId");
+
+                    b.HasIndex("OgretmenId");
 
                     b.ToTable("Kurslar");
                 });
@@ -48,6 +53,10 @@ namespace EFCoreApp.Migrations
 
                     b.HasKey("KayitId");
 
+                    b.HasIndex("KursId");
+
+                    b.HasIndex("OgrenciId");
+
                     b.ToTable("KursKayitları");
                 });
 
@@ -58,20 +67,93 @@ namespace EFCoreApp.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Eposta")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("OgrenciAd")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("OgrenciSoyad")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("TelefonNumarasi")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("OgrenciId");
 
                     b.ToTable("Ogrenciler");
+                });
+
+            modelBuilder.Entity("EFCoreApp.Data.Ogretmen", b =>
+                {
+                    b.Property<int>("OgretmenId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("BaşlamaTarihi")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("OgretmenAd")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("OgretmenEposta")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("OgretmenSoyad")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("OgretmenTelefon")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("OgretmenId");
+
+                    b.ToTable("Ogretmenler");
+                });
+
+            modelBuilder.Entity("EFCoreApp.Data.Kurs", b =>
+                {
+                    b.HasOne("EFCoreApp.Data.Ogretmen", "Ogretmen")
+                        .WithMany("Kurslar")
+                        .HasForeignKey("OgretmenId");
+
+                    b.Navigation("Ogretmen");
+                });
+
+            modelBuilder.Entity("EFCoreApp.Data.KursKayit", b =>
+                {
+                    b.HasOne("EFCoreApp.Data.Kurs", "Kurs")
+                        .WithMany("KursKayitlari")
+                        .HasForeignKey("KursId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EFCoreApp.Data.Ogrenci", "Ogrenci")
+                        .WithMany("KursKayitları")
+                        .HasForeignKey("OgrenciId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Kurs");
+
+                    b.Navigation("Ogrenci");
+                });
+
+            modelBuilder.Entity("EFCoreApp.Data.Kurs", b =>
+                {
+                    b.Navigation("KursKayitlari");
+                });
+
+            modelBuilder.Entity("EFCoreApp.Data.Ogrenci", b =>
+                {
+                    b.Navigation("KursKayitları");
+                });
+
+            modelBuilder.Entity("EFCoreApp.Data.Ogretmen", b =>
+                {
+                    b.Navigation("Kurslar");
                 });
 #pragma warning restore 612, 618
         }

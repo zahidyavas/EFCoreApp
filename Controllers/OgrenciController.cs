@@ -16,6 +16,11 @@ namespace EFCoreApp.Controllers
             return View(ogrenciler);
         }
 
+        public IActionResult Create()
+        {
+            return View();
+        }
+
         [HttpPost]
         public async Task<IActionResult> Create(Ogrenci model)
         {
@@ -33,7 +38,11 @@ namespace EFCoreApp.Controllers
             {
                 return NotFound();
             }
-            var ogr = await _context.Ogrenciler.FindAsync(id);
+            var ogr = await _context
+                .Ogrenciler
+                .Include(o => o.KursKayitları)
+                .ThenInclude(o => o.Kurs)
+                .FirstOrDefaultAsync(o => o.OgrenciId == id); // Bu satır, Ogrenciler DbSet'inden belirtilen id'ye sahip bir öğrenci kaydını asenkron olarak bulur. FindAsync() metodu, veritabanında belirtilen id'ye sahip bir kayıt arar ve eğer bulunursa o kaydı döndürür. Eğer kayıt bulunamazsa null döner. Bu sayede, düzenlemek istediğimiz öğrenci kaydını veritabanından alırız.
             if (ogr == null)
             {
                 return NotFound();
@@ -43,12 +52,11 @@ namespace EFCoreApp.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken] // Bu satır, Cross-Site Request Forgery (CSRF) saldırılarına karşı koruma sağlar. ValidateAntiForgeryToken attribute'u, form gönderimlerinde bir anti-forgery token'ı doğrular. Bu token, formun gerçekten uygulamanız tarafından gönderildiğini ve kötü niyetli bir üçüncü taraf tarafından oluşturulmadığını doğrulamak için kullanılır. Bu sayede, CSRF saldırılarına karşı ek bir güvenlik katmanı sağlar.
-        public async Task<IActionResult> Edit(int? id, Ogrenci model)
+        public async Task<IActionResult> Edit(int? id, Ogrenci model) 
         {
             if (id != model.OgrenciId)
             {
                 return NotFound();
-
             }
 
             if (ModelState.IsValid)

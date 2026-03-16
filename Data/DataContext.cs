@@ -8,10 +8,11 @@ namespace EFCoreApp.Data
         {
             
         }
-        public DbSet<Kurs> Kurslar { get; set; } // // DbSet, veritabanındaki Kurs tablosunu temsil eder ve bu tabloya erişim sağlar.
-        public DbSet<Ogrenci> Ogrenciler { get; set; }
-        public DbSet<KursKayit> KursKayitları { get; set; }
+        public DbSet<Kurs> Kurslar => Set<Kurs>(); // // DbSet, veritabanındaki Kurs tablosunu temsil eder ve bu tabloya erişim sağlar.
+        public DbSet<Ogrenci> Ogrenciler => Set<Ogrenci>();
+        public DbSet<KursKayit> KursKayitları => Set<KursKayit>();
         // Normal şartlarda oluşturduğumuz classlara ingilizce isimler vermemiz gerekir, daha sonrasında ise DbSet'lerimize ise bu yapancı adların s takısını halini yazmamız
-        // gerekirdi ancak biz Türkçe isimler verdiğimiz için DbSet'lerimize de Türkçe isimler verdik. Bu şekilde de çalışır. Örneğin DbSet<Product> Products { get; set; } şeklinde de yazabilirdik.
+        // gerekirdi ancak biz Türkçe isimler verdiğimiz için DbSet'lerimize de Türkçe isimler verdik. Bu şekilde de çalışır. Örneğin DbSet<Product> Products { get; set; } şeklinde de yazabilirdik
+        public DbSet<Ogretmen> Ogretmenler => Set<Ogretmen>();
     }
 }

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Ogretmen> // IEnumerable Nedir? Ogrenci sınıfından oluşan bir koleksiyon olduğunu belirtir. Bu, genellikle bir liste veya dizi olabilir.
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Öğretmen Listesi</h2>
+<hr />
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(i => i.OgretmenId)</th> @* DisplayNameFor, belirtilen model özelliğinin kullanıcı dostu bir adını görüntülemek için kullanılır. Bu durumda, i.OgrenciId'nin kullanıcı dostu adını görüntüler. Genellikle, model sınıfındaki özelliklerin adlarını daha okunabilir hale getirmek için kullanılır. *@
+            <th>@Html.DisplayNameFor(i => i.OgretmenAd)</th>
+            <th>@Html.DisplayNameFor(i => i.OgretmenSoyad)</th>
+            <th>@Html.DisplayNameFor(i => i.OgretmenTelefon)</th>
+            <th>@Html.DisplayNameFor(i => i.BaşlamaTarihi)</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.OgretmenId)</td> @* DisplayFor, belirtilen model özelliğinin değerini görüntülemek için kullanılır. Bu durumda, item.OgrenciId'nin değerini görüntüler. *@
+                <td>@Html.DisplayFor(modelItem => item.OgretmenAd)</td>
+                <td>@Html.DisplayFor(modelItem => item.OgretmenSoyad)</td>
+                <td>@Html.DisplayFor(ModelItem => item.OgretmenTelefon)</td>
+                <td>@Html.DisplayFor(ModelItem => item.BaşlamaTarihi)</td>
+                <td>
+                    <a asp-controller="Ogretmen" asp-action="Edit" asp-route-id="@item.OgretmenId" class="btn btn-sm btn-primary">Düzenle</a>
+                    <a asp-controller="Ogretmen" asp-action="Delete" asp-route-id="@item.OgretmenId" class="btn btn-sm btn-danger">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-success mb-3" asp-controller="Ogretmen" asp-action="Create">Yeni Öğretmen Ekle</a>

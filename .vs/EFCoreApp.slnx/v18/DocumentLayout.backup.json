@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\controllers\\ogrencicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:controllers\\ogrencicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\controllers\\kurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:controllers\\kurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\views\\ogrenci\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:views\\ogrenci\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\views\\kurs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:views\\kurs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\views\\ogrenci\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:views\\ogrenci\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\models\\kursviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:models\\kursviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\views\\ogrenci\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:views\\ogrenci\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\data\\kurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:data\\kurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\data\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:data\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|c:\\users\\zahid\\desktop\\efcoreapp\\data\\ogretmen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DB1820-B4D1-1EB9-1367-068B1F3C140C}|EFCoreApp.csproj|solutionrelative:data\\ogretmen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,33 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OgrenciController.cs",
-              "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Controllers\\OgrenciController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OgrenciController.cs",
-              "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Controllers\\OgrenciController.cs*",
-              "RelativeToolTip": "Controllers\\OgrenciController.cs*",
-              "ViewState": "AgIAACoAAAAAAAAAAAAIwEEAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Kurs.cs",
+              "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Data\\Kurs.cs",
+              "RelativeDocumentMoniker": "Data\\Kurs.cs",
+              "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Data\\Kurs.cs",
+              "RelativeToolTip": "Data\\Kurs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T09:55:28.056Z",
+              "WhenOpened": "2026-03-16T17:50:26.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ogretmen.cs",
+              "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Data\\Ogretmen.cs",
+              "RelativeDocumentMoniker": "Data\\Ogretmen.cs",
+              "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Data\\Ogretmen.cs",
+              "RelativeToolTip": "Data\\Ogretmen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T17:45:30.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KursViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Models\\KursViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\KursViewModel.cs",
+              "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Models\\KursViewModel.cs",
+              "RelativeToolTip": "Models\\KursViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T17:50:08.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KursController.cs",
+              "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Controllers\\KursController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KursController.cs",
+              "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Controllers\\KursController.cs",
+              "RelativeToolTip": "Controllers\\KursController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T17:43:05.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Ogrenci\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Ogrenci\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Ogrenci\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Ogrenci\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Kurs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kurs\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Kurs\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Kurs\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-15T09:47:00.049Z",
+              "WhenOpened": "2026-03-16T17:40:05.355Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -69,45 +112,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Ogrenci.cs",
-              "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Data\\Ogrenci.cs",
-              "RelativeDocumentMoniker": "Data\\Ogrenci.cs",
-              "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Data\\Ogrenci.cs",
-              "RelativeToolTip": "Data\\Ogrenci.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T22:59:28.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Ogrenci\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Ogrenci\\Create.cshtml",
-              "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Ogrenci\\Create.cshtml",
-              "RelativeToolTip": "Views\\Ogrenci\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-14T22:52:32.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Ogrenci\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Ogrenci\\Index.cshtml",
-              "ToolTip": "C:\\Users\\zahid\\Desktop\\EFCoreApp\\Views\\Ogrenci\\Index.cshtml",
-              "RelativeToolTip": "Views\\Ogrenci\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-14T22:23:53.951Z",
-              "EditorCaption": ""
             }
           ]
         }

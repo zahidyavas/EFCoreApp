@@ -16,6 +16,13 @@ namespace EFCoreApp.Data
         [Required(ErrorMessage = "Bu alan boş bırakılamaz")]
         public string? OgrenciSoyad { get; set; }
 
+        public string AdSoyad { 
+            get
+            {
+                return $"{OgrenciAd} {OgrenciSoyad}";
+            } 
+        }
+
         [Display(Name = "Eposta Adresi")]
         [Required(ErrorMessage = "Bu alan boş bırakılamaz")]
         public string? Eposta { get; set; }
@@ -23,5 +30,7 @@ namespace EFCoreApp.Data
         [Display(Name = "Telefon Numarası")]
         [Required(ErrorMessage = "Bu alan boş bırakılamaz")]
         public string? TelefonNumarasi { get; set; }
+
+        public ICollection<KursKayit> KursKayitları { get; set; } = new List<KursKayit>();
     }
 }
